@@ -1,3 +1,12 @@
-body {background-color:black;}
+body {
+	background-color:#bb1919;
+	
+}
 
-h1, p {color: gold;}
+h1, h2, p, li {
+	color: white;
+	font-family: Courier New;
+	font-size: 40;
+	font-style: italic;
+}
+
