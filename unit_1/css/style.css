@@ -1,12 +1,21 @@
 body {
-	background-color:#bb1919;
+	background-color:#ffffff;
 	
 }
 
 h1, h2, p, li, table {
-	color: white;
-	font-family: Courier New;
-	font-size: 20px;
+	color: #4187E8;
+	font-family: Proxima Nova;
+	font-size: 18px;
 	f
 }
 
+img {
+	width: 300px
+}
+
+header {
+
+	background-color: #00CCF5
+
+}

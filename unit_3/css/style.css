@@ -1,0 +1,19 @@
+body {
+	background-color:#ffffff;
+	
+}
+header {
+
+	background-color: #d8dede
+}
+
+h1, h2, p, li, table {
+	color: #4187E8;
+	font-family: Proxima Nova;
+	font-size: 18px;	
+}
+
+img {
+	width: 300px
+}
+
