@@ -18,8 +18,9 @@ header {
 
 nav{
 	margin:auto;
-	padding: 20px;
+	padding-bottom: 20px;
 	font-style: Gotham
+	text-align:right;
 }
 
 a {
