@@ -1,14 +1,20 @@
-
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
 	background: rgba(226,230,231, .5);
 	font-size: 16px;
+<<<<<<< HEAD
 	font-family: helvetica, ariel, sans-serif;
+=======
+	font-family: helvetica, arial, sans-serif;
+>>>>>>> ab9af615956a26f4cb00b7055cfcc4e04d800946
 	color: #222222;
 	text-align: center;
 	position: relative;
 }
-
+/* CSS comments look like this */
 #uoulogo{
+<<<<<<< HEAD
 	width: 40px;
 	max-width: 100px:;
 
@@ -16,23 +22,31 @@ body {
 
 /* this is a comment */
 
+=======
+	width: 10em;
+}
+>>>>>>> ab9af615956a26f4cb00b7055cfcc4e04d800946
 header {
-	background-color: #e2e6e7
+	background-color: #e2e6e7;
 }
 
 nav{
 	margin:auto;
 	padding-bottom: 20px;
+<<<<<<< HEAD
 	font-family: Raleway;
+=======
+	font-family: 'Raleway', sans-serif;
+>>>>>>> ab9af615956a26f4cb00b7055cfcc4e04d800946
 	text-align:right;
 }
 
 #centered{
-	text-align: 
-	padding-top:
-	padding-right:
-	padding-bottom:
-	padding-left:
+	text-align:; 
+	padding-top:;
+	padding-right:;
+	padding-bottom:;
+	padding-left:;
 }
 
 div{
@@ -46,13 +60,9 @@ cta {
 	background
 }
 
-a {
-	color: #000000;
-	text-decoration: none;
-}
-
 nav a {
 	color: #000000;
+	text-decoration: none;
 	margin: 20px;
 }
 
@@ -60,20 +70,27 @@ nav a {
 	width: 100%;
 }
 
-.container {
-    position: relative;
-    text-align: center;
-    color: black;
+#hero {
+	background:url(../images/Campbell_Dubai-crop2.jpg) no-repeat;
+	background-size:cover;
+	height: 60vh;
+	min-height: 30em;
+	position: relative;
 }
-
 .centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-
+.cta {
+	background:orange;
+	color:#fff;
+	display:inline-block;
+	margin-top:1em;
+	padding:1em 2em;
+	text-decoration: none;
+}
 main{
 	background-color: #ffffff;
 	padding: 20px;
