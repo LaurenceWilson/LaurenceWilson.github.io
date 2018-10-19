@@ -2,16 +2,19 @@
 body {
 	background: rgba(226,230,231, .5);
 	font-size: 16px;
-	font-family: sans-serif;
+	font-family: helvetica, ariel, sans-serif;
 	color: #222222;
 	text-align: center;
 	position: relative;
 }
 
 #uoulogo{
-	width: 10%
+	width: 40px;
+	max-width: 100px:;
 
 }
+
+/* this is a comment */
 
 header {
 	background-color: #e2e6e7
@@ -20,7 +23,7 @@ header {
 nav{
 	margin:auto;
 	padding-bottom: 20px;
-	font-family: Raleway
+	font-family: Raleway;
 	text-align:right;
 }
 
@@ -39,7 +42,9 @@ div{
 	color: #ffffff
 }
 
-
+cta {
+	background
+}
 
 a {
 	color: #000000;
