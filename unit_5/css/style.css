@@ -1,31 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
+ @import url('https://fonts.googleapis.com/css?family=Bitter');
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
 	background: rgba(226,230,231, .5);
 	font-size: 16px;
-<<<<<<< HEAD
-	font-family: helvetica, ariel, sans-serif;
-=======
-	font-family: helvetica, arial, sans-serif;
->>>>>>> ab9af615956a26f4cb00b7055cfcc4e04d800946
+	font-family: Raleway, ariel, sans-serif;
+	font-family: Raleway, arial, sans-serif;
 	color: #222222;
 	text-align: center;
 	position: relative;
-}
+
 /* CSS comments look like this */
+
+}
 #uoulogo{
-<<<<<<< HEAD
-	width: 40px;
-	max-width: 100px:;
+	width: 100px;
+	max-width: 200px:;
 
 }
 
 /* this is a comment */
 
-=======
-	width: 10em;
-}
->>>>>>> ab9af615956a26f4cb00b7055cfcc4e04d800946
 header {
 	background-color: #e2e6e7;
 }
@@ -33,11 +28,8 @@ header {
 nav{
 	margin:auto;
 	padding-bottom: 20px;
-<<<<<<< HEAD
 	font-family: Raleway;
-=======
 	font-family: 'Raleway', sans-serif;
->>>>>>> ab9af615956a26f4cb00b7055cfcc4e04d800946
 	text-align:right;
 }
 
@@ -50,8 +42,8 @@ nav{
 }
 
 div{
-	font-family: serif;
-	font-size: 40px;
+	font-family: Bitter, serif;
+	font-size: 30px;
 	text-shadow: 1px 1px #000;
 	color: #ffffff
 }
@@ -96,9 +88,10 @@ main{
 	padding: 20px;
 }
 
-section{
-
+ul{
+	list-style: none;
 }
+
 
 
 footer{
