@@ -9,47 +9,24 @@ body {
 	color: #222222;
 	text-align: center;
 	position: relative;
+}
 
 /* CSS comments look like this */
-
-}
-#uoulogo{
-	width: 100px;
-	max-width: 200px:;
-
-}
-
-/* this is a comment */
 
 header {
 	background-color: #e2e6e7;
 }
 
+#uoulogo{
+	width: 5em;
+	max-width: 200px:;
+}
+
 nav{
 	margin:auto;
 	padding-bottom: 20px;
-	font-family: Raleway;
-	font-family: 'Raleway', sans-serif;
+	font-family: Raleway, sans-serif;
 	text-align:right;
-}
-
-#centered{
-	text-align:; 
-	padding-top:;
-	padding-right:;
-	padding-bottom:;
-	padding-left:;
-}
-
-div{
-	font-family: Bitter, serif;
-	font-size: 30px;
-	text-shadow: 1px 1px #000;
-	color: #ffffff
-}
-
-cta {
-	background
 }
 
 nav a {
@@ -58,23 +35,21 @@ nav a {
 	margin: 20px;
 }
 
-#heroimage{
-	width: 100%;
-}
-
-#hero {
-	background:url(../images/Campbell_Dubai-crop2.jpg) no-repeat;
-	background-size:cover;
-	height: 60vh;
-	min-height: 30em;
-	position: relative;
-}
 .centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+#hero{
+	background:url(../images/Campbell_Dubai-crop2.jpg) no-repeat;
+	background-size:cover;
+	height: 60vh;
+	min-height: 30em;
+	position: relative;
+}
+
 .cta {
 	background:orange;
 	color:#fff;
@@ -83,16 +58,23 @@ nav a {
 	padding:1em 2em;
 	text-decoration: none;
 }
-main{
-	background-color: #ffffff;
-	padding: 20px;
+
+#introtext{
+	font-family: Bitter, serif;
+	font-size: 30px;
+	text-shadow: 1px 1px #000;
+	color: #ffffff
 }
 
+#content{
+	padding: 1em 1em 1em 1em;
+}
+
+aside
+	
 ul{
 	list-style: none;
 }
-
-
 
 footer{
 	background-color:#d8dede;
@@ -100,3 +82,7 @@ footer{
 	padding: 20px;
 	text-align: center;
 }
+
+
+
+
