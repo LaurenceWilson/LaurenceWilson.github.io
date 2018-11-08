@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+ @import url('https://fonts.googleapis.com/css?family=Bitter');
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	background: rgba(226,230,231, .5);
+	font-size: 16px;
+	font-family: Raleway, ariel, sans-serif;
+	font-family: Raleway, arial, sans-serif;
+	color: #222222;
+	text-align: center;
+	position: relative;
+}
+
+/* CSS comments look like this */
+
+header {
+	padding: 0 20px;
+	display: flex;
+	justify-content: space-between;
+	height: 100px;
+	align-items: center;
+	background-color: #e2e6e7;
+}
+
+/*THe ID should all have # because they are ID not class */
+
+#uoulogo{
+	/* width: 5em; */
+	margin: 0 0 0 20px;
+	height: 100%;
+	max-width: 200px:;
+}
+
+a{
+	color: #222;
+	text-decoration: none;
+}
+
+nav{
+	/* margin: auto; */
+	/* padding-bottom: 20px; */
+	font-family: Raleway, sans-serif;
+	/* text-align:right; */
+}
+
+nav a {
+	text-decoration: none;
+	padding: 20px;
+	display: inline-block;
+	/* float: right; */
+}
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
+
+a:hover{
+	background-color: #aaaaaa
+}
+
+selector:pseudo-class {
+    property:value;
+}
+
+
+
+.centered {
+    position: absolute;
+    top: 60%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+	background-color: white;
+	padding: 2em;
+	max-width: 400px;
+
+}
+
+#hero{
+	position: relative;
+}
+#hero img{
+	width: 100%;
+	padding: 20px;
+}
+
+
+form{
+	    display: block;
+    text-align: left;
+    width: 400px;
+    margin: 2em auto 0;
+    font-size: 16px;
+}
+
+input[type="text"] {
+	width: 400px;
+	padding: 10px;
+}
+
+.cta {
+	background:#3374FF;
+	color:#fff;
+	display:inline-block;
+	margin-top:1em;
+	padding:1em 2em;
+	text-decoration: none;
+}
+
+#introtext{
+	font-family: Bitter, serif;
+	font-size: 30px;
+	color: black
+}
+
+h3{
+	font-size: 16px;
+	padding: 10px;
+}
+
+
+.page-container{
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+}
+.page-container section{
+	width: 100%;
+	float: left;
+	padding: 40px 0;
+}
+
+/* article */
+.article {
+  width: 33.33%;
+  padding: 10px;
+  float: left;
+}
+.article .article-inner{
+	width: 100%;
+	padding: 20px;
+}
+
+#article1 .article-inner {
+  background-color: #FF530D;
+}
+
+#article2 .article-inner{
+  background-color: #E82C0C;
+}
+
+#article3 .article-inner{
+  background-color: #E80C7A;
+}
+
+/* social */
+
+.social-networks{
+	width: 100%;
+	float: left;
+	display: flex;
+	justify-content: center;
+}
+.social-networks li{
+	padding: 20px;
+
+}
+
+
+
+
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
+
+
+
+	
+ul{
+	list-style: none;
+}
+
+footer{
+	background-color:#d8dede;
+	margin:auto;
+	padding: 20px;
+	clear: both;
+}
+
+
+
+
