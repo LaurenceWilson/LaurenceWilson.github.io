@@ -95,17 +95,33 @@ form{
     width: 400px;
     margin: 2em auto 0;
     font-size: 16px;
+    opacity: 0.7;
 }
 
 label{
     display: block;
     padding-top: 10px;
-    opacity: 0.7;
 }
 
 input[type="text"] {
 	width: 400px;
 	padding: 10px;
+}
+
+input[type="checkbox"] {
+    margin: 1em;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 1em;
+    background-color: #357EFF;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
 .cta {
