@@ -156,28 +156,50 @@ h3{
 	padding: 40px 0;
 }
 
+
+h2 {
+    font-weight: bold;
+    /* border-radius: 100px; */
+}
+
 /* article */
 .article {
   width: 33.33%;
-  padding: 10px;
+  padding: 20px;
   float: left;
+  background-color: white;
 }
 .article .article-inner{
 	width: 100%;
 	padding: 20px;
+	color: black;
 }
 
 #article1 .article-inner {
-  background-color: #FF530D;
+  background-color: #;
 }
 
 #article2 .article-inner{
-  background-color: #E82C0C;
+  background-color: #;
 }
 
 #article3 .article-inner{
-  background-color: #E80C7A;
+  background-color: #;
 }
+
+
+button {
+    margin: 1em;
+    padding: 1em;
+    background-color: #357EFF;
+    color: white;
+    padding: 10px 40px;
+    cursor: pointer;
+    opacity: 0.7;
+    border: none;
+}
+
+
 
 /* social */
 
