@@ -173,7 +173,7 @@ h3{
 }
 
 
-section#articles {
+section#content1 {
     display: inline-flex;
 }
 
@@ -183,7 +183,7 @@ img#article1 {
     max-width: 100%;
 }
 
-.article.block {
+.article.block1 {
     background-color: white;
     margin: 40px -60px;
     padding: 25px;
@@ -208,6 +208,27 @@ button {
     border: none;
     margin-top: 4em;
 }
+
+
+section#content2 {
+    display: block;
+}
+
+.article.block2 {
+    background-color: white;
+    margin: 40px 0px;
+    padding: 25px;
+    max-width: 400px;
+    max-height: 266px;
+    position: absolute;
+}
+
+img#article1 {
+    width: 700px;
+    max-width: 100%;
+}
+
+
 
 /* article 
 .article {
