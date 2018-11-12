@@ -120,6 +120,7 @@ label{
 input[type="text"] {
 	width: 400px;
 	padding: 10px;
+	margin: 5px 0;
 }
 
 input[type="checkbox"] {
