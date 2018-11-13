@@ -169,13 +169,12 @@ h3{
 }
 .page-container section{
 	width: 100%;
-	float: left;
 	padding: 40px 0;
 }
 
 
 section#content1 {
-    display: inline-flex;
+position: relative;
 }
 
 /*Having trouble with these image sizes turning them into % */
@@ -183,20 +182,23 @@ section#content1 {
 img#article1 {
     width: 700px;
     max-width: 100%;
+    display: block;
 }
 
 .article.block1 {
     background-color: white;
-    margin: 40px -60px;
     padding: 25px;
     max-width: 40%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
 }
 
 
 p {
     margin: 20px 0 0 0;
 }
-
 
 button {
     margin: 1em;
@@ -212,21 +214,25 @@ button {
 
 
 section#content2 {
+    position: relative;
+}
+
+img#article2 {
+    width: 700px;
+    max-width: 100%;
     display: block;
 }
 
 .article.block2 {
-    background-color: white;
-    margin: 40px 0px;
+   background-color: white;
     padding: 25px;
     max-width: 40%;
     position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
 }
 
-img#article1 {
-    width: 700px;
-    max-width: 100%;
-}
 
 
 
@@ -304,6 +310,7 @@ footer{
 	.header {
 		float: none;
 		width: auto;
+		display: block;
 	}
 	.social-networks {
 		float: none;
