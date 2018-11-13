@@ -106,7 +106,7 @@ h1 {
 form{
 	    display: block;
     text-align: left;
-    width: 400px;
+    width: 45%;
     margin: 2em auto 0;
     font-size: 16px;
     opacity: 0.7;
@@ -118,7 +118,7 @@ label{
 }
 
 input[type="text"] {
-	width: 400px;
+	width: 100%;
 	padding: 10px;
 	margin: 5px 0;
 }
@@ -163,7 +163,7 @@ h3{
 
 
 .page-container{
-	max-width: 960px;
+	max-width: 75%;
 	width: 100%;
 	margin: 0 auto;
 }
@@ -178,6 +178,7 @@ section#content1 {
     display: inline-flex;
 }
 
+/*Having trouble with these image sizes turning them into % */
 
 img#article1 {
     width: 700px;
@@ -301,6 +302,16 @@ footer{
 	clear: both;
 }
 
+@media only screen and (max-width: 480px) {
+	.header {
+		float: none;
+		width: auto;
+	}
+	.social-networks {
+		float: none;
+		width: auto;
+	}
+}
 
 
 
