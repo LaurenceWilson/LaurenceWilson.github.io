@@ -309,12 +309,48 @@ footer{
 	clear: both;
 }
 
-@media only screen and (max-width: 480px) {
-	.header {
-		float: none;
-		width: auto;
-		display: block;
+@media only screen and (max-width: 930px) {
+	.centered{
+		display: none;
 	}
+}
+
+
+@media only screen and (max-width: 750px) {
+	.social-networks{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 630px){
+	.image-article{
+		display: none;
+	}
+	.article.block1{
+		display: block;
+		max-width: 100%;
+	}
+	.article.block2{
+		display: block;
+		max-width: 100%;
+	}
+}
+
+@media only screen and (min-width: 543px) {
+	.hidden {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 543px) {
+	.clearfix {
+		display: none;
+	}
+
+}
+
+@media only screen and (max-width: 480px) {
+	
 	.social-networks {
 		float: none;
 		width: auto;
