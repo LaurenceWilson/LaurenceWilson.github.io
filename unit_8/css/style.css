@@ -212,6 +212,9 @@ button {
     margin-top: 4em;
 }
 
+.image-article {
+    text-align: right;
+}
 
 section#content2 {
     position: relative;
@@ -220,7 +223,7 @@ section#content2 {
 img#article2 {
     width: 700px;
     max-width: 100%;
-    display: block;
+    text-align: right;
 }
 
 .article.block2 {
