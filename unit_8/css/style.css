@@ -76,6 +76,7 @@ selector:pseudo-class {
 	background-color: white;
 	padding: 6em;
 	max-width: 40%;
+	box-shadow: 2px 2px 2px #D3D3D3;
 
 }
 
@@ -193,6 +194,7 @@ img#article1 {
     top: 50%;
     right: 0;
     transform: translateY(-50%);
+        box-shadow: 2px 2px 2px #D3D3D3;
 }
 
 
@@ -234,6 +236,7 @@ img#article2 {
     top: 50%;
     left: 0;
     transform: translateY(-50%);
+        box-shadow: 2px 2px 2px #D3D3D3;
 }
 
 
