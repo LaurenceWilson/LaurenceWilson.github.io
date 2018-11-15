@@ -49,6 +49,7 @@ nav a {
 	/* float: right; */
 }
 
+
 .clearfix:after {
 visibility: hidden;
 display: block;
@@ -349,6 +350,8 @@ footer{
 	.clearfix {
 		display: none;
 	}
+
+
 
 }
 
