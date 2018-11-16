@@ -71,13 +71,12 @@ selector:pseudo-class {
 
 .centered {
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 23%;
     transform: translate(-50%, -50%);
 	background-color: white;
 	padding: 6em;
-	max-width: 40%;
-	box-shadow: 2px 2px 2px #D3D3D3;
+	max-width: 600px;
 
 }
 
@@ -288,19 +287,6 @@ img#article2 {
 
 
 
-
-
-.clearfix:after {
-visibility: hidden;
-display: block;
-content: " ";
-clear: both;
-height: 0;
-font-size: 0;
-}
-
-
-
 	
 ul{
 	list-style: none;
@@ -313,11 +299,21 @@ footer{
 	clear: both;
 }
 
-@media only screen and (max-width: 930px) {
+
+/*Media Query Section*/
+
+@media only screen and (max-width: 730px) {
+	#hero img {
+    display: none;
+	}
 	.centered{
-		display: none;
+    	position: initial;
+    	transform: none;
+    	max-width: 100%;
+    	margin: 2em;
 	}
 }
+
 
 
 @media only screen and (max-width: 750px) {
@@ -331,29 +327,79 @@ footer{
 		display: none;
 	}
 	.article.block1{
-		display: block;
-		max-width: 100%;
+    	position: initial;
+    	transform: none;
+    	max-width: 100%;
+    	margin: 1em;
+    	padding: 0;
+    	margin: 0;
 	}
 	.article.block2{
-		display: block;
-		max-width: 100%;
+    	position: initial;
+    	transform: none;
+    	max-width: 100%;
+    	margin: 1em;
+    	padding: 0;
+    	margin: 0;
+	}
+
+	#content1{
+		padding: 0;
+	}
+	#content2{
+		padding: 0;
+	}
+
+	form{
+		width: 100%;
 	}
 }
 
-@media only screen and (min-width: 543px) {
-	.hidden {
+@media only screen and (min-width: 810px){
+	.hidden1 {
+		display: none;
+	}	
+	.hidden2 {
 		display: none;
 	}
 }
 
-@media only screen and (max-width: 543px) {
+@media only screen and (max-width: 810px) {
 	.clearfix {
 		display: none;
 	}
-
-
-
+	.hidden2 {
+		display: none;
+	}
+	.centered {
+		padding: 3em;
+	}
+	
 }
+
+@media only screen and (max-width: 407px) {
+	.hidden1{
+		display: none;
+	}
+	.clearfix{
+		display: none;
+	}
+	.centered{
+		padding: 1em;
+	}
+	.hidden2{
+		display: block;
+	}
+}
+
+/*
+@media only screen and (min-width: 407px) {
+	.hidden2 {
+		display: none;
+	}
+}
+*/
+
 
 @media only screen and (max-width: 480px) {
 	
